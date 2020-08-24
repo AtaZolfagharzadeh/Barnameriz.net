@@ -157,12 +157,12 @@ select {
 ::-moz-selection {
     /* Code for Firefox */
     color: #fff;
-    background: #ff4081;
+    background: #ba68c8;
 }
 
 ::selection {
     color: #fff;
-    background: #ff4081;
+    background: #ba68c8;
 }
 
 .section {
@@ -171,10 +171,8 @@ select {
 
 .loader {
     position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-left: -45px;
-    margin-top: -45px;
+    top: 48%;
+    left: 48%;
 }
 
 .row {
@@ -183,6 +181,44 @@ select {
 
 .ck-content {
     height: 130px;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.p-0 {
+    padding: 0 !important;
+}
+
+.px-0 {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.pr-0 {
+    padding-right: 0 !important;
+}
+
+.pl-0 {
+    padding-left: 0 !important;
+}
+
+.py-0 {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+}
+
+.pt-0 {
+    padding-top: 0 !important;
+}
+
+.pb-0 {
+    padding-bottom: 0 !important;
+}
+
+.p-5 {
+    padding: 50px !important;
 }
 
 .m-0 {
@@ -383,4 +419,68 @@ select {
     display: block;
     width: 80%;
     margin: 20px auto;
+}
+
+/* Section: Slider */
+.section-slider {
+    height: auto;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://i.pinimg.com/originals/51/95/eb/5195ebb8c5f9772deda82aa2937134d3.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.section-slider p.slider-description {
+    line-height: 35px;
+}
+
+.slider-card {
+    width: 230px;
+    height: 230px;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 15px 25px;
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 10px 15px;
+    background-position: center;
+    background-size: cover;
+    transition: transform 0.5s;
+}
+
+.slider-card h6 {
+    text-shadow: 0 0 5px #999;
+    font-size: 18px;
+}
+
+.slider-card p {
+    text-shadow: 0 0 15px #000;
+    font-size: 14px;
+}
+
+.slider-card-1 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://caloriecontrol.org/wp-content/uploads/AdobeStock_106548618-300x200.jpeg);
+}
+
+.slider-card-2 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://media.istockphoto.com/photos/flat-lay-sport-shoes-bottle-of-water-dumbbells-and-earphones-picture-id609076630);
+
+}
+
+.slider-card-3 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://www.designer-daily.com/wp-content/uploads/2019/12/imac_5k_black_mockup_tranmautritam.jpg);
+}
+
+.slider-card-4 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://samjayhub.com/wp-content/uploads/2020/01/business-card-double-side.jpg);
+}
+
+.slider-card:hover {
+    transform: translateY(-10px);
+}
+
+@media(max-width: 992px) {
+
+    .section-slider .p-5 {
+        padding: 20px !important;
+    }
 }
