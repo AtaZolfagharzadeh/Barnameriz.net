@@ -187,6 +187,18 @@ select {
     height: 100%;
 }
 
+.text-justify {
+    text-align: justify !important;
+}
+
+.line-height-35 {
+    line-height: 35px;
+}
+
+.font-size-12 {
+    font-size: 12px;
+}
+
 .p-0 {
     padding: 0 !important;
 }
@@ -429,10 +441,6 @@ select {
     background-size: cover;
 }
 
-.section-slider p.slider-description {
-    line-height: 35px;
-}
-
 .slider-card {
     width: 230px;
     height: 230px;
@@ -447,9 +455,9 @@ select {
     transition: transform 0.5s;
 }
 
-.slider-card h6 {
+.slider-card h5 {
     text-shadow: 0 0 5px #999;
-    font-size: 18px;
+    font-size: 19px;
 }
 
 .slider-card p {
