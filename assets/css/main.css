@@ -229,8 +229,154 @@ select {
     padding-bottom: 0 !important;
 }
 
+.p-1 {
+    padding: 10px !important;
+}
+
+.px-1 {
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+.pr-1 {
+    padding-right: 10px !important;
+}
+
+.pl-1 {
+    padding-left: 10px !important;
+}
+
+.py-1 {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+.pt-1 {
+    padding-top: 10px !important;
+}
+
+.pb-1 {
+    padding-bottom: 10px !important;
+}
+
+.p-2 {
+    padding: 20px !important;
+}
+
+.px-2 {
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+.pr-2 {
+    padding-right: 20px !important;
+}
+
+.pl-2 {
+    padding-left: 20px !important;
+}
+
+.py-2 {
+    padding-top: 20px !important;
+    padding-bottom: 20px !important;
+}
+
+.pt-2 {
+    padding-top: 20px !important;
+}
+
+.pb-2 {
+    padding-bottom: 20px !important;
+}
+
+.p-3 {
+    padding: 30px !important;
+}
+
+.px-3 {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+}
+
+.pr-3 {
+    padding-right: 30px !important;
+}
+
+.pl-3 {
+    padding-left: 30px !important;
+}
+
+.py-3 {
+    padding-top: 30px !important;
+    padding-bottom: 30px !important;
+}
+
+.pt-3 {
+    padding-top: 30px !important;
+}
+
+.pb-3 {
+    padding-bottom: 30px !important;
+}
+
+.p-4 {
+    padding: 40px !important;
+}
+
+.px-4 {
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+}
+
+.pr-4 {
+    padding-right: 40px !important;
+}
+
+.pl-4 {
+    padding-left: 40px !important;
+}
+
+.py-4 {
+    padding-top: 40px !important;
+    padding-bottom: 40px !important;
+}
+
+.pt-4 {
+    padding-top: 40px !important;
+}
+
+.pb-4 {
+    padding-bottom: 40px !important;
+}
+
 .p-5 {
     padding: 50px !important;
+}
+
+.px-5 {
+    padding-left: 50px !important;
+    padding-right: 50px !important;
+}
+
+.pr-5 {
+    padding-right: 50px !important;
+}
+
+.pl-5 {
+    padding-left: 50px !important;
+}
+
+.py-5 {
+    padding-top: 50px !important;
+    padding-bottom: 50px !important;
+}
+
+.pt-5 {
+    padding-top: 50px !important;
+}
+
+.pb-5 {
+    padding-bottom: 50px !important;
 }
 
 .m-0 {
@@ -491,4 +637,139 @@ select {
     .section-slider .p-5 {
         padding: 20px !important;
     }
+}
+
+.hover-border {
+    font-weight: bold;
+    text-shadow: 0 0 2px #999;
+    position: relative;
+}
+
+.hover-border::after {
+    content: '';
+    width: 0%;
+    height: 7px;
+    background-color: white;
+    position: absolute;
+    bottom: -25%;
+    left: 50%;
+    border-radius: 10px;
+    box-shadow: 0 0 2px white;
+    transition: all 500ms ease;
+}
+
+.section-whatwedo:hover .hover-border::after {
+    left: 0%;
+    width: 100%;
+}
+
+/* Section: What We Do */
+.section-whatwedo span.hover-border {
+    display: inline-block;
+    margin: 25px 0;
+}
+
+.section-whatwedo .main {
+    width: 100%;
+    height: 460px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+
+.section-whatwedo .main .service {
+    border-radius: 10px;
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+    box-shadow: 0 0 20px -15px #030380;
+    transition: transform 0.8s;
+}
+
+.section-whatwedo .main .service-logo {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    margin: -90px auto 0;
+    background: #FFF;
+    border: 18px solid #1976d2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section-whatwedo .main .service h4 {
+    height: 35px;
+    width: 80%;
+    background: #FFF;
+    margin: 50px auto;
+    position: relative;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.section-whatwedo .main .service h4::after {
+    content: '';
+    height: 30px;
+    width: 40px;
+    background: linear-gradient(to right, #fff, #007bff);
+    position: absolute;
+    right: -5px;
+    top: -5px;
+    z-index: -1;
+}
+
+.section-whatwedo .main .service h4::before {
+    content: '';
+    height: 30px;
+    width: 40px;
+    background: linear-gradient(to right, #007bff, #fff);
+    position: absolute;
+    left: -5px;
+    bottom: -5px;
+    z-index: -1;
+}
+
+.shadow-one {
+    height: 200px;
+    width: 80%;
+    background: #FFF;
+    position: absolute;
+    border-radius: 10px;
+    bottom: 0;
+    left: 10%;
+    z-index: 1;
+    box-shadow: 0 0 20px -15px #030380;
+    transition: transform 0.8s;
+}
+
+.shadow-two {
+    height: 200px;
+    width: 64%;
+    background: #FFF;
+    position: absolute;
+    border-radius: 10px;
+    bottom: 0;
+    left: 18%;
+    z-index: 0;
+}
+
+.section-whatwedo .main:hover .service {
+    transform: translateY(-50px);
+}
+
+.section-whatwedo .main:hover .shadow-one {
+    transform: translateY(-25px);
+}
+
+.section-whatwedo i {
+    transition: transform 0.8s;
+}
+
+.section-whatwedo .main:hover i {
+    transform: rotate(360deg);
 }
