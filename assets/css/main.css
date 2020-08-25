@@ -700,8 +700,8 @@ select {
 }
 
 .section-whatwedo .main .service h4 {
-    height: 35px;
-    width: 80%;
+    height: 42px;
+    width: 85%;
     background: #FFF;
     margin: 50px auto;
     position: relative;
@@ -716,7 +716,7 @@ select {
     content: '';
     height: 30px;
     width: 40px;
-    background: linear-gradient(to right, #fff, #007bff);
+    background: linear-gradient(to right, #fff, #1976d2);
     position: absolute;
     right: -5px;
     top: -5px;
@@ -727,7 +727,7 @@ select {
     content: '';
     height: 30px;
     width: 40px;
-    background: linear-gradient(to right, #007bff, #fff);
+    background: linear-gradient(to right, #1976d2, #fff);
     position: absolute;
     left: -5px;
     bottom: -5px;
