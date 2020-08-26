@@ -150,7 +150,8 @@ audio,
 video,
 input,
 textarea,
-select {
+select,
+button {
     font-family: IRANSansFaNum, IRANSans, sans-serif;
 }
 
@@ -704,6 +705,7 @@ nav {
     position: relative;
     display: inline-block;
     margin: 25px 0;
+    z-index: 100;
 }
 
 .hover-border::after {
