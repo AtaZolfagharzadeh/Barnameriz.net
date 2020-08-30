@@ -208,6 +208,26 @@ button {
     width: 100%;
 }
 
+.position-absolute {
+    position: absolute;
+}
+
+.top-0 {
+    top: 0;
+}
+
+.bottom-0 {
+    bottom: 0;
+}
+
+.left-0 {
+    left: 0;
+}
+
+.right-0 {
+    right: 0;
+}
+
 .display-block {
     display: block !important;
 }
@@ -614,6 +634,12 @@ button {
     box-shadow: 0 1px 0 0 #FFF !important;
 }
 
+.az-container {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 .btn-extended {
     display: block;
     width: 80%;
@@ -627,6 +653,10 @@ button {
 
 .parallax-container {
     height: auto !important;
+}
+
+.materialboxed:hover {
+    opacity: 1 !important;
 }
 
 /* Navbar */
@@ -672,20 +702,20 @@ nav {
 }
 
 .slider-card-1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://caloriecontrol.org/wp-content/uploads/AdobeStock_106548618-300x200.jpeg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/diet-plan-bg.jpg);
 }
 
 .slider-card-2 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(https://media.istockphoto.com/photos/flat-lay-sport-shoes-bottle-of-water-dumbbells-and-earphones-picture-id609076630);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/program-plan-bg.jpg);
 
 }
 
 .slider-card-3 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://www.designer-daily.com/wp-content/uploads/2019/12/imac_5k_black_mockup_tranmautritam.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(../img/web-design-bg.jpg);
 }
 
 .slider-card-4 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(https://samjayhub.com/wp-content/uploads/2020/01/business-card-double-side.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/graphic-design-bg.jpg);
 }
 
 .slider-card:hover {
@@ -939,6 +969,16 @@ nav {
 }
 
 /* Footer */
+footer {
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3), rgba(0, 0, 0, .4)), url(../img/footer-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+footer .footer-copyright {
+    background-image: linear-gradient(rgba(0, 0, 0, .3), rgba(0, 0, 0, .3));
+}
+
 footer .contact span {
     display: block;
     font-size: 1.1rem;
@@ -1030,4 +1070,98 @@ footer .contact span:hover {
 
 #login-modal .active {
     color: #1976d2 !important;
+}
+
+/* Product Page */
+/* Slider */
+.section-product-slider {
+    height: 600px;
+    position: relative;
+    background: rgb(25, 118, 210);
+    background: linear-gradient(180deg, rgba(25, 118, 210, 1) 1%, rgba(0, 212, 255, 1) 100%);
+}
+
+.cut-circle {
+    display: block;
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: auto;
+}
+
+.slider-img-mockup {
+    max-width: 740px;
+    display: block;
+    margin: 30px auto;
+    border-radius: 20px;
+    position: absolute;
+    right: 50%;
+    transform: translateX(50%);
+}
+
+/* Section: Icon Box */
+.section-icons {
+    min-height: 350px;
+}
+
+.section-icons .card-panel {
+    border-top: 0 solid #1976d2;
+    border-bottom: 0 solid #1976d2;
+    transition: all .3s;
+}
+
+.section-icons .card-panel:hover {
+    margin-top: -25px;
+    border-top: 10px solid #1976d2;
+    border-bottom: 10px solid #1976d2;
+}
+
+/* Section: Information */
+.section-information {
+    background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, .3), rgba(255, 255, 255, 1)), url(https://fox-landing-page.netlify.app/assets/img/gray-bg.jpg);
+}
+
+/* Section: Screenshot */
+.section-screenshot img {
+    border: 2px solid #e5e5e5;
+}
+
+.collapsible-header:focus {
+    outline: 0 !important;
+}
+
+/* Section: FAQ */
+.section-faq {
+    background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(300, 300, 300, .2), rgba(255, 255, 255, 1));
+}
+
+/* Section: CTA */
+.section-cta {
+    background-image: linear-gradient(rgba(255, 255, 255, 1), rgba(255, 255, 255, .3), rgba(255, 255, 255, 1)), url(https://fox-landing-page.netlify.app/assets/img/gray-bg.jpg);
+}
+
+/* Section: Git In Touch */
+.section-git-in-touch input,
+.section-git-in-touch textarea {
+    border-bottom: 1px solid #1976d2 !important;
+}
+
+.section-git-in-touch input:focus,
+.section-git-in-touch textarea:focus {
+    box-shadow: 0 1px 0 0 #1976d2 !important;
+}
+
+.section-git-in-touch .active,
+.section-git-in-touch .active {
+    color: #1976d2 !important;
+    font-weight: bold;
+}
+
+.section-git-in-touch .card-panel {
+    transition: all .3s;
+}
+
+.section-git-in-touch .card-panel:hover {
+    margin-top: -5px;
 }
